@@ -1,0 +1,24 @@
+h3{
+    font-style: italic;
+    color: blue;
+}
+
+#identifikator{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: darkcyan;
+    background-color: cyan;
+}
+
+.klasa{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-style:inherit;
+    color: limegreen;
+    background-color: darkgreen;
+}
+
+#novi-font{
+    font-family: "Sofia";
+}
