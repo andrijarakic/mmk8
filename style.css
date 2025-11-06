@@ -3,26 +3,30 @@ body {
     background-color: rgb(219, 219, 219);    
     font-weight: 500;
     font-style: normal;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
 }
 
 /*Zaglavlje*/
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
     background-image: linear-gradient(0deg, 
-    rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.55) 100%);
+        rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.55) 100%);
     color: white;
     padding: 1% 5%;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    
 }
 
-nav ul{
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.main-menu, .auth-menu {
     list-style: none;
     display: flex;
     gap: 40px;
@@ -30,15 +34,19 @@ nav ul{
     padding: 0;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     transition: color 0.3s;
 }
 
-nav a:hover{
+nav a:hover {
     color: white;
     background-color: gray;
+}
+
+.auth-menu {
+    margin-left: 40%;
 }
 
 /*Plava kutija*/
@@ -75,7 +83,6 @@ nav a:hover{
     margin: 80px;
     padding: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    line-height: 1.7;
 }
 
 .ImageRight{
